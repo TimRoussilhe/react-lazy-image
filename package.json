@@ -1,0 +1,8 @@
+{
+  "name": "react-lazy-image",
+  "version": "1.0.0",
+  "description": "React Lazy Loading support for an Image",
+  "main": "src/react-lazy-image.js",
+  "author": "Tim Roussilhe",
+  "license": "MIT"
+}
