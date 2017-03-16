@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import {TweenMax} from 'gsap';
 
-import './LazyImage.css';
+import './react-lazy-image.css';
 
 class LazyImage extends Component {
 
@@ -31,8 +31,6 @@ class LazyImage extends Component {
 	}
 
 	componentDidMount(){
-
-        console.log('this.props', this.props);
 
         this.el = this.refs.el;
 

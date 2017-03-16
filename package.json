@@ -1,8 +1,33 @@
 {
-  "name": "react-lazy-image",
-  "version": "1.0.0",
-  "description": "React Lazy Loading support for an Image",
-  "main": "src/react-lazy-image.js",
-  "author": "Tim Roussilhe",
-  "license": "MIT"
+	"name": "react-lazy-image",
+	"version": "1.0.0",
+	"description": "React Lazy Loading support for an Image",
+	"main": "src/react-lazy-image.js",
+	"author": "Tim Roussilhe",
+	"license": "MIT",
+	"scripts": {
+		"build": "webpack --mode=build",
+		"dev": "webpack --progress --colors --watch --mode=dev",
+		"test": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
+	},
+	"devDependencies": {
+		"babel": "^6.5.2",
+		"babel-core": "^6.18.2",
+		"babel-eslint": "^7.1.0",
+		"babel-loader": "^6.2.7",
+		"babel-plugin-add-module-exports": "^0.2.1",
+		"babel-preset-es2015": "^6.18.0",
+		"eslint": "^3.9.1",
+		"eslint-loader": "^1.6.1",
+		"gsap": "^1.19.1",
+		"react": "^15.4.2",
+		"webpack": "^1.13.3",
+		"yargs": "^6.3.0",
+		"postcss-loader": "^1.3.3",
+		"style-loader": "^0.14.1"
+	},
+	"dependencies": {
+		"eslint": "^3.9.1",
+		"eslint-loader": "^1.6.1"
+	}
 }

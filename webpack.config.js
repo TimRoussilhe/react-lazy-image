@@ -36,6 +36,10 @@ var config = {
 				test: /(\.jsx|\.js)$/,
 				loader: "eslint-loader",
 				exclude: /node_modules/
+			},
+            {
+				test: /^((?!\.module).)*css$/,
+				loader: 'style-loader!css-loader?&importLoaders=1!postcss-loader'
 			}
 		]
 	},

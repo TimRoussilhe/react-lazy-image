@@ -1,0 +1,21 @@
+.lazy{
+    position: relative;
+    width: 100%;
+    background-color: black;
+    overflow:hidden;
+    padding-top: 50%;
+}
+
+.lazy img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    will-change: opacity, transform;
+    opacity: 0;
+    /*transition: opacity 5s ease-out, transform 5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: scale3d(1.025, 1.025, 1.025);*/
+}
